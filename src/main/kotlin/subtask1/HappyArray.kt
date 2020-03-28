@@ -5,7 +5,7 @@ class HappyArray {
 
 
 
-    fun converToHappy(sadArray: IntArray): IntArray {
+    fun convertToHappy(sadArray: IntArray): IntArray {
 
 
         fun isChanged(testArray: IntArray): Boolean {
