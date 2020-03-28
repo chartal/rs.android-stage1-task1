@@ -235,6 +235,7 @@ class StringParser {
 
 
         var exitArray: Array<String> = list.toTypedArray()
+        exitArray.reverse()
         println("Вот мой массив:" + exitArray.joinToString (" "))
 
 
