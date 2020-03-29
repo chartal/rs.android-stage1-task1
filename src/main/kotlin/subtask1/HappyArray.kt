@@ -8,6 +8,9 @@ class HappyArray {
     fun convertToHappy(sadArray: IntArray): IntArray {
 
 
+        if (sadArray.size == 0) return sadArray
+
+
         fun isChanged(testArray: IntArray): Boolean {
             var changed = false
             for (i in 1..testArray.size - 2) {
